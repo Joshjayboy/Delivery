@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Deliveroo App",
+    "slug": "deliveroo_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/delivery-guy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00ccbb"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#00ccbb"
+      },
+      "package": "com.solution247.deliveroo_app"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d3aef16-efaa-400b-bdc4-cd4f74370fb6"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2d3aef16-efaa-400b-bdc4-cd4f74370fb6"
+    }
+  }
+}
